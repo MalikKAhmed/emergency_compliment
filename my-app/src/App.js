@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Hello from './Hello'
+import Compliment from './Compliment'
 import './App.css'
 
 class App extends Component {
@@ -14,6 +15,7 @@ class App extends Component {
       <div className='App'>
         <p>
           <Hello name={this.state.username} />
+          <Compliment/>
         </p>
       </div>
     )
